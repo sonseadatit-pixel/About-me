@@ -1,0 +1,304 @@
+.background-home{
+ background: linear-gradient(45deg, rgb(88, 28, 31)50%,rgb(168, 22, 22)100%);
+     width: 100%;
+    height: 940px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.name img {
+    width: 40px;
+    height: 40px;
+    border-radius:30px;
+}
+.menu-align{
+    display: flex;
+    justify-content: right;
+    margin: -55px 120px 0 0;
+}
+.menu-top{
+    display: flex;
+    gap: 30px;
+    font-size: 15px bold;
+    
+}
+.content{
+    margin-left: 55px;
+    margin-top: 200px;
+}
+.content h1{
+    font-size: 40px;
+}
+.content p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+.more{
+    width: 50px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(204, 54, 54);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 0px 10px 0px 10px;
+    margin-left: 150px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.img{
+    width:500px;
+    height: 680px;}
+    .img-content{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: -400px;
+    margin-right: 120px;
+}
+.div{
+    color: black;
+    display: flex;
+    align-items: centers;
+}
+.img-about-me{
+border-radius: 50px;
+width: 500px;
+height: 500px;
+margin: 50px 0px 50px 50px;
+}
+.about-me{
+    margin: 120px 50px 50px 400px;
+}
+.about-me h1,li,p {
+    margin-top: 20px;
+}
+/* parent class for center menu  */
+.container-dc {
+text-align: center;
+color: black;
+}
+/* use for cotent center menu */
+.grid-header {
+  font-size: 28px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}      
+/* menu center*/
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 30px;
+}
+/* use for text menu */
+  .menu a {
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 15px;
+ background: linear-gradient(45deg, rgb(88, 28, 31)50%,rgb(168, 22, 22)100%);
+  }
+.menu a:active,
+.menu a:focus {
+  background-color: #e9ecef; 
+  color: #ffffff;            
+}
+.menu a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: 0.4s;
+ background: linear-gradient(45deg, rgb(172, 48, 54)50%,rgb(240, 31, 31)100%);
+
+}
+/* Container for the image and text */
+.card {
+  display: inline-block; /* Allows items to sit side-by-side */
+  width: 300px; 
+  background-color: #f0f0f0; 
+  margin-right: 20px;
+}
+/* Specific styling for the image inside the card */
+.card img {
+  width: 300px;
+  height: 400px; 
+}
+/* The text area under the image */
+.card-title {
+  font-size: 14px;
+  height: 20px;
+  color: #253c99;        
+  text-align: left;
+}
+/*for all image */
+.page {
+  display: none;
+}
+.page img {
+  width: 300px;
+  height: 400px;
+}
+/* use for show the targeted page */
+.page:target {
+  display: block;
+}
+/* use for shows a page when click a link without reloading the whole webpage*/
+body:not(:has(:target)) #law {
+  display: block;
+}
+/* Skill */
+.skill{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(40deg,rgb(0, 234, 255)10%, rgb(17, 144, 255)100%);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items:left;
+    justify-content: center;
+    gap: 300px;
+}
+.skill li{
+     display: flex;
+    align-items:left;
+}
+.skill i{
+    font-size: 30px;                           
+    padding-left: 30px;
+    color: black;
+}
+.skill img{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.code-language{
+    width: 250px;
+    height: 30px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content:left;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 45px;
+}
+.code-language img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+
+.container{
+    color: black;
+    display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+.main-result {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.project-result{
+    width: 230px;
+    height: 200px;
+    border-radius: 20px;
+      transition: transform 0.1s ease;
+}
+.project-result:hover{
+     transform: scale(1.1);
+box-shadow: 0 4px 10px rgba(27, 26, 26, 0.50);
+}
+.next{
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: rgb(177, 14, 14);
+    transition: transform 0.1s ease;
+}
+
+.next:hover{ 
+    color: rgb(219, 58, 58);
+    transform: scale(1.1);
+}
+
+
+
+
+/* Footer */
+.background{
+    background-color: black;
+    width: 100%;
+    height: 320px;   
+}
+
+.background a{
+     text-decoration: none;
+    color: inherit;
+}
+body{
+    color: white;
+font-family: 'Solway', sans-serif;
+
+}
+
+.footer{
+    padding: 30px 0px 10px 150px;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius:30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.link{
+display:flex;
+justify-content: center;
+align-items: center;   
+margin-top: -250px;
+
+}
+.contact{
+    display: flex;
+    justify-content: right;
+    padding: 0px 150px 10px 0px;
+        margin-top: -209px;
+
+}
+.contact a i {
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    padding-bottom:10px ;
+}
+hr{
+    margin-top: 40px;
+    width: 88%;
+}
+a i {
+  font-size: 30px;
+  color: white;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+a i:hover {
+  color: #a1a4a5;
+}

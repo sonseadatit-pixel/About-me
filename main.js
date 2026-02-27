@@ -25,3 +25,35 @@ window.addEventListener("scroll", () => {
 
 
 
+// nav bar
+      window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+
+    if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
+
+
+const text = `I am happy you are here. This space is where
+I share who I am, what I am learning, and
+what I enjoy work on. Please take your
+time and explore what is below.`;
+
+let i = 0;
+const speed = 30;
+
+function typeText() {
+  if (i < text.length) {
+    document.getElementById("typing").textContent += text.charAt(i);
+    i++;
+    setTimeout(typeText, speed);
+  }
+}
+
+typeText();
+
+
+

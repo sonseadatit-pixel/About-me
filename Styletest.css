@@ -1,3 +1,15 @@
+
+@media (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
 .background-home{
  background: linear-gradient(45deg, rgb(88, 28, 31)50%,rgb(168, 22, 22)100%);
      width: 100%;
@@ -56,6 +68,7 @@
 .img{
     width:500px;
     height: 680px;}
+    
     .img-content{
     display: flex;
     justify-content: right;
@@ -162,13 +175,11 @@ body:not(:has(:target)) #law {
     background: linear-gradient(40deg,rgb(0, 234, 255)10%, rgb(17, 144, 255)100%);
     color: rgb(0, 0, 0);
     display: flex;
-    align-items:left;
     justify-content: center;
-    gap: 300px;
+    gap: 100px;
 }
 .skill li{
      display: flex;
-    align-items:left;
 }
 .skill i{
     font-size: 30px;                           
@@ -176,20 +187,20 @@ body:not(:has(:target)) #law {
     color: black;
 }
 .skill img{
-    margin-top: 30px;
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    margin-top: 30px;
 }
 .code-language{
-    width: 250px;
+    width: 200px;
     height: 30px;
     background-color: #ffffff;
     align-items: center;
     justify-content:left;
     padding-top: 10px;
     padding-left: 10px;
-    margin-right: 45px;
+
 }
 .code-language img{
     width: 30px;

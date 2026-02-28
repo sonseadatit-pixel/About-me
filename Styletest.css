@@ -12,7 +12,7 @@
   white-space: pre-line; /* this allows new lines */
 }
 .navbar.scrolled {
-    background-color: #3f414b; /* new color when scrolling */
+    background-color: #500713; /* new color when scrolling */
     transition: background-color 0.3s ease;
     color: #a1a4a5;
 }
@@ -20,7 +20,7 @@
     position: sticky;
     top: 0;  
     z-index: 1000;
-    background-color: #253c99;
+background: linear-gradient(45deg, rgb(88, 28, 31)25%,rgb(168, 22, 22) 90%);
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -65,7 +65,7 @@ height: 500px;
 margin: 50px 0px 50px 50px;
 }
 .about-me{
-    margin: 120px 50px 50px 400px;
+    margin: 100px 50px 50px 300px;
 }
 .about-me h1,li,p {
     margin-top: 20px;
@@ -148,45 +148,26 @@ body:not(:has(:target)) #law {
 /* Skill */
 .skill{
     width: 100%;
-    height: auto;
+    height: 600px;
     background: linear-gradient(40deg,rgb(0, 234, 255)10%, rgb(17, 144, 255)100%);
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    gap: 100px;
-}
-.skill li{
-     display: flex;
-}
-.skill i{
-    font-size: 30px;                           
-    padding-left: 30px;
-    color: black;
-}
-.skill img{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    margin-top: 30px;
-}
-.code-language{
-    width: 200px;
-    height: 30px;
-    background-color: #ffffff;
     align-items: center;
-    justify-content:left;
-    padding-top: 10px;
-    padding-left: 10px;
-
 }
-.code-language img{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
+ .container-box {
+    width: 800px;
+    height: 500px;
+    background: white;
+    gap: 20px;
+    border: solid 1px;
+  }
+.box-sql{
+    width: 100px;
+    height: 80px;
+    background-color: #253c99;
+        border: solid 1px;
 }
-
-
 
 .container{
     color: black;
@@ -266,7 +247,7 @@ margin-top: -250px;
     display: flex;
     justify-content: right;
     padding: 0px 150px 10px 0px;
-        margin-top: -209px;
+    margin-top: -267px;
 
 }
 .contact a i {
